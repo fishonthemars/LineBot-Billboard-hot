@@ -25,7 +25,7 @@ class TocMachine(GraphMachine):
 
     def is_going_to_state5(self, event):
         text = event.message.text
-        return text.lower() == "hot2"
+        return text.lower() == "hot 2"
 
     def is_going_to_state6(self, event):
         text = event.message.text
